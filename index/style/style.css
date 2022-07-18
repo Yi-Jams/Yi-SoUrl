@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+.allnr{
+		width: 100%;
+		height: auto;
+		display: block;
+		max-width: 800px;
+		margin-top:10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.gonggao{
+		width: auto;
+		height: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+		background-color: #ffffff;
+		border-radius: 20px;
+		padding: 25px;
+	}
+
+	.ggtile{
+		font-size: 18px;
+		color: #000000;
+		font-weight: 900;
+		display: block;
+		margin-top: 0px;
+	}
+
+	.ggnr{
+		color: #616264;
+		font-weight: normal;
+		font-size: 14px;
+		margin: 20px 0px 20px;
+		display: block;
+	}
+
+	.jiaocheng{
+		color: #3599ff;
+		font-weight: 900;
+		font-size: 14px;
+		margin-top: 20px;
+		display: block;
+		text-decoration: none;
+	}
+
+	.gametit{
+		font-size: 18px;
+		color: #000000;
+		font-weight: 900;
+		display: block;
+		margin-top: 0px;
+		margin-left: 20px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	.gamelie{
+		width: auto;
+		height: auto;
+		margin-left: 20px;
+		margin-right: 20px;
+		background-color: #ffffff;
+		border-radius: 20px;
+		padding: 15px 25px 10px 25px;
+		position: relative;
+		margin-bottom: 10px;
+		cursor: pointer;
+	}
+
+	.icon{
+		width: 50px;
+		height: 50px;
+		border-radius: 12px;
+		display: inline-block;
+	}
+
+	.gamename{
+		margin-left: 20px;
+		line-height: 50px;
+		display: inline-block;
+		position: absolute;
+		left: 80px;
+
+	}
+
+	.wechat{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 200px;
+		height: auto;
+		border-radius: 20px;
+	}
+
+@media (prefers-color-scheme: dark) {
+    .gonggao{
+		background-color: #292e32;
+	}
+	.ggtile{
+		color: #fefefe;
+	}
+	.ggnr{
+		color: #abbdcf;
+	}
+	.gametit{
+		color: #fefefe;
+	}
+	.gamelie{
+		background-color: #292e32;
+	}
+
+	.gamename{
+		color:#fefefe;
+	}
+
+}
+.JabiIcon{
+	width: 60px;
+	height: 60px;
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Jabitx{
+	width: 100px;
+	height: 100px;
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.JabiAppCall{
+	width: 100%;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: bolder;
+	color: #212121;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.JabiAppV{
+	width: 100%;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #b6b6b6;
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.JabiAppDes{
+	width: 240px;
+	height: auto;
+	border-radius: 12px;
+	margin: 30px auto 0px;
+	padding: 0px 15px 15px;
+	border: dashed 1px #d6d6d6;
+}
+
+.JabiAppDesTxt{
+	color: #848484;
+	font-size: 14px;
+	font-weight: lighter;
+	display: block;
+	margin-top: 15px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.JabiAppTeach{
+	width: 270px;
+	height: 40px;
+	background-color: #eef4ff;
+	color: #3583ff;
+	border-radius: 12px;
+	margin: 20px auto 0px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.buttons{
+	 display: flex;
+}
+
+.incs{
+float: left;
+width: 22%;
+height: 34px;
+font-weight: bold;
+text-align: center;
+line-height: 34px;
+margin: 15px auto 0px;
+/* border-radius: 12px; */
+font-size: 12px;
+color: #616264;
+/* background: linear-gradient(to right,#eef4ff,#dce1ec); */
+cursor: pointer;
+}
+.JabiAppDown{
+	width: 30%;
+	height: 34px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 34px;
+	margin: 15px auto 0px;
+	border-radius: 20px;
+	font-size: 12px;
+	color: #3583ff;
+	background: linear-gradient(to right,#eef4ff,#dce1ec);
+	cursor: pointer;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .JabiAppCall{
+	color: #fefefe;
+}
+	.JabiAppV{
+	color: #778493;
+}
+	.JabiAppDes{
+	border: dashed 1px #2a3037;
+}
+
+	.JabiAppDesTxt{
+	color: #8e9aaa;
+}
+	.JabiAppTeach{
+	background-color: #1f252d;
+	color: #4083b8;
+}
+
+
+}
+@media screen and (min-width: 600px){
+	.JabiAppDown{
+		width: 15%;
+	}
+	.uldata {
+	    width: 50%;
+	    margin: 0px auto 0px;
+	}
+	.textarea{
+		width: 35%;
+	}
+	.van-popup--top{
+		width: 40%;
+		left: 0;
+right: 0;
+top: 0;
+    margin: auto;
+	}
+	.JabiAppTeach{
+		width: 25%;
+	}
+}
